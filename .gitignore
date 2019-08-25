@@ -1,8 +1,8 @@
 HELP.md
-target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
+
 
 ### STS ###
 .apt_generated
@@ -30,4 +30,14 @@ build/
 ### VS Code ###
 .vscode/
 
-src/main/resources/public
+
+### vue-frontend ###
+vue-frontend/.idea/
+vue-frontend/dist/
+vue-frontend/target/
+vue-frontend/node/
+vue-frontend/node_modules/
+vue-frontend/package-lock.json
+vue-frontend/*.iml
+spring-backend/src/main/resources/public/
+spring-backend/src/main/resources/public
